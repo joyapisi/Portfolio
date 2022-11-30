@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio setup and Mobile First. Day 3 Microverse Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyapisi/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joyapisi/Portfolio/issues"
+  },
+  "homepage": "https://github.com/joyapisi/Portfolio#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
+}
