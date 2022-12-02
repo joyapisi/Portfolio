@@ -1,0 +1,311 @@
+html * {
+    max-height: 1000000px;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(Fonts/Poppins.ttf);
+}
+.appbar {
+position: absolute;
+width: 375px;
+height: 92px;
+left: 0px;
+top: 0px;
+display: flex;
+flex-direction: column;
+}
+.appbar .status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+    top: 10px;
+}
+.icons{
+display: flex;
+flex-direction: row;
+justify-content: space-betwee;
+align-items: center;
+flex: 1;
+
+}
+.icon{
+    padding: 5px;
+}
+.navbar-toggler:focus {
+       border: 0 !important;
+    box-shadow: none !important;
+  
+}
+.navbar-toggler{
+    border:0!important;  
+}
+
+.navbar-light .navbar-toggler-icon{
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2832, 53, 237, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  border:0!important;  
+}
+
+.navbar{
+ position: absolute;
+left: 0px;
+right: 0px;
+top: 44px;
+bottom: 0px;
+
+}
+ul{
+    list-style: none;
+}
+.navbar .navbar-light .navbar-toggler-icon{
+    color: #6070FF;
+}
+
+.nav-container .navbar-brand{
+
+width: 76px;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Primary/B400 */
+
+color: #6070FF;
+}
+.main{
+    display: flex;
+    height:70%;
+    margin-top: 30%;
+}
+.mobile {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 5%;
+margin-right: 10%;
+margin-bottom: 10px;
+margin-top: 15%;
+}
+#paragraph2
+{
+display: flex;
+color: #6070FF;
+font-weight: bold;
+}
+
+
+.mobile .heading{
+display: flex;
+justify-content: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #172B4D;
+margin-left: 0%;
+}
+
+
+h1 {
+width: 327px;
+height: 150px;
+
+/* Header / 2 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+/* or 130% */
+
+display: flex;
+align-items: center;
+
+/* Neutrals/N800 */
+
+color: #172B4D;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+
+.mobile .social-media {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+width: 170.17px;
+height: 20px;
+
+
+
+}
+#paragraph1{
+    font-family: 'Poppins';
+    color: #344563;
+
+
+}
+
+.background-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rectangle4 {
+position: absolute;
+width: 95.58px;
+height: 22.02px;
+left: 294px;
+top: 165.79px;
+background: #EBEBFF;
+transform: rotate(-30deg);
+
+}
+
+.ellipse3 {
+position: absolute;
+
+left: 333px;
+top: 172.24px; 
+
+}
+
+.ellipse15 {
+box-sizing: border-box;
+position: absolute;
+width: 15px;
+height: 15px;
+left: 53px;
+top: 645px;
+
+/* Primary/B100 */
+
+
+}
+
+.ellipse14{
+position: absolute;
+width: 11px;
+height: 11px;
+left: 298px;
+top: 315px;
+
+/* Primary/B100 */
+
+}
+
+.ellipse8 {
+box-sizing: border-box;
+position: absolute;
+width: 15px;
+height: 15px;
+left: 214px;
+top: 110px;
+
+/* Primary/B100 */
+
+}
+
+.ellipse11 {
+position: absolute;
+top: 161.47px;
+float: left;
+right: 353px;
+
+
+}
+
+.rectangle6 {
+    position: absolute;
+width: 51.99px;
+height: 9.3px;
+left: -34px;
+top: 141.49px;
+background: #EBEBFF;
+transform: rotate(-46.14deg);
+
+}
+
+.ellipse12 {
+    position: absolute;
+    width: 24.14px;
+    height: 12.07px;
+    left: 341.76px;
+    top: 550.69px;
+
+transform: rotate(6.08deg);
+
+    }
+  
+.ellipse13 {
+    position: absolute;
+width: 30.1px;
+height: 30.1px;
+left: 332.18px;
+top: 560.44px;
+transform: rotate(-10.41deg)
+}
+
+.ellipse4 {
+position: absolute;
+width: 20px;
+height: 20px;
+left: 237px;
+top: 642px;
+
+}
+
+.rectangle5 {
+position: absolute;
+width: 68.06px;
+height: 12.18px;
+left: 191.82px;
+top: 653px;
+background: #EBEBFF;
+transform: rotate(23.34deg);
+
+}
+.ellipse5 {
+position: absolute;
+width: 11px;
+height: 10px;
+left: 132.98px;
+top: 200.81px;
+
+transform: rotate(52.97deg);
+}
+
+.rectangle7 {
+    position: absolute;
+    width: 26.46px;
+    height: 4.73px;
+    left: 127.18px;
+    top: 196.59px;
+    
+    /* Primary/B400 */
+    
+    background: #6070FF;
+    transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
+    
+}
