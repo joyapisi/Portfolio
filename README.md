@@ -33,7 +33,7 @@ Use images and backgrounds to enhance the look of your website.
     <li><a href="https://https://www.figma.com/">Figma</a></li>
   </ul>
   
-  
+
   <summary>Javascript runtime environment</summary>
   <ul>
     <li><a href="https://nodejs.org/en/">Node JS</a></li>
