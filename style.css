@@ -2,8 +2,6 @@ html * {
   max-height: 1000000px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
 .appbar {
   position: absolute;
   width: 375px;
@@ -14,20 +12,13 @@ html * {
   flex-direction: column;
 }
 
-.appbar .status {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-right: 10px;
-  top: 10px;
-}
-
 .icons {
   display: flex;
   flex-direction: row;
   justify-content: space-betwee;
   align-items: center;
   flex: 1;
+  margin-left: -35px;
 }
 
 .icon {
@@ -93,15 +84,17 @@ ul {
   margin-top: 15%;
 }
 
-#paragraph2 {
+#heading5 {
   display: flex;
   color: #6070ff;
-  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-weight: light;
 }
 
 .mobile .heading {
   display: flex;
   justify-content: center;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -115,6 +108,7 @@ h1 {
   width: 327px;
   height: 150px;
   font-style: normal;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -136,6 +130,7 @@ h1 {
 
 #paragraph1 {
   color: #344563;
+  font-family: 'Poppins', sans-serif;
 }
 
 .background-images {
