@@ -18,15 +18,61 @@ html * {
   justify-content: space-betwee;
   align-items: center;
   flex: 1;
-  margin-left: -35px;
+  margin-left: -24px;
+  width: 170.17px;
+  height: 20px;
 }
 
 .icon {
   padding: 5px;
+  margin-left: -9px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.icon .icon1 {
+  position: absolute;
+  left: 6.4%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
+}
+
+.icon .icon2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 63px;
+  top: 575px;
+}
+
+.icon .icon3 {
+  position: absolute;
+  left: 27.47%;
+  right: 67.2%;
+  top: 78.15%;
+  bottom: 19.21%;
+}
+
+.icon .icon4 {
+  position: absolute;
+  left: 38.13%;
+  right: 57.07%;
+  top: 77.81%;
+  bottom: 18.87%;
+}
+
+.icon .icon5 {
+  position: absolute;
+  left: 48%;
+  right: 48.22%;
+  top: 77.81%;
+  bottom: 18.87%;
 }
 
 .navbar-toggler {
-  border: 0 !important;
+  border: 0;
 }
 
 .navbar-toggler:focus {
