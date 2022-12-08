@@ -54,8 +54,8 @@ html * {
 
 .appbar .navbar.navbar-light .fixed-top {
   position: absolute;
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   top: 44px;
   bottom: 0;
 }
@@ -64,9 +64,9 @@ html * {
   position: relative;
   width: 375px;
   height: 5410px;
-  background: #ffffff;
+  background: #fff;
   right: 0;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 .headline {
@@ -143,9 +143,9 @@ li {
   list-style: none;
 }
 
-/*.background-images {
+/* .background-images {
   position: fixed;
-}*/
+} */
 
 .rectangle4 {
   position: absolute;
